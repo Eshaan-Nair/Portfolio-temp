@@ -1,0 +1,28 @@
+.name {
+    padding-top: 15%;
+    height: 100vh;
+    font-family: serif;
+}
+.programmer {
+    font-family: sans-serif;
+}
+.gradient-background {
+    background: linear-gradient(300deg, rgb(174, 228, 38), #ffffff, #b5e623);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+one {
+    background-color: #b5e623;
+}  
